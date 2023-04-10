@@ -1,0 +1,245 @@
+body {
+    margin:0;
+    border:0;
+    padding:0;
+    font-family:'Open Sans',sans-serif;
+}
+/*sin reset headers h1 h2 h3 h4 no funciona*/
+h2 ,h3 ,h4{
+    margin:0;
+    border:0;
+    padding:0;    
+}
+
+
+
+
+nav{
+    padding: 6px 0px 6px 0;
+    background-color: black;
+    color: white;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    margin-right: 40px;
+    margin-left:10px;
+    vertical-align:middle;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+
+}
+
+header{
+    background-image:url(../img/bg-hero.png) ;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color: white;
+    text-shadow: 2px 2px rgb(31, 29, 27); 
+     /* height:652px; */
+    padding: 60px 100px 200px 400px;
+    height:120px;
+}
+header h1{
+    font-size:47px;
+    font-weight: 900;
+    width:800px;
+    text-align:right;
+    margin-top:50px; 
+}
+header h2{
+    font-size:30px;
+    font-weight: 500;
+    margin-left:99px; 
+}
+
+.lugar{
+    text-align:center;
+    padding: 100px 100px 80px 100px;
+}
+.lugar img{
+    width:35%;
+    margin-bottom:30px;
+}
+
+.lugar h2{
+    font-size:42px;
+       
+}
+.lugar p{
+    font-size:19px;
+    padding: 15px 380px;
+    width:600px;
+    /* border:0px solid black; */
+
+}
+/*PROXIMA CHARLA*/
+
+#proxima-charla{
+    background-color:#A4452C;
+    color: white;
+    padding: 50px;
+    /* margin: 50px; */
+    /* width: 800px; */
+    /* text-align: center; */
+
+}
+
+.wrapper{
+    width:800px;
+    margin:auto;
+}
+.wrapper img{
+    width:31%;
+}
+
+.wrapper img, .texto{
+    display:inline-block;
+    vertical-align:middle;
+    
+
+}
+
+ #proxima-charla img{
+    border-radius:5px;
+} 
+
+#proxima-charla .texto{
+width:55%;
+}
+#proxima-charla .texto h2{
+    font-size:34px;
+ }
+ #proxima-charla .texto h3{
+    font-size:28px;
+ }
+ #proxima-charla .texto h4{
+    margin-top:12px;
+    font-size:25px;
+    font-weight:400;
+ }
+.carrera-expositor{
+    font-size:15px;
+    font-weight:400;
+    opacity:0.8;
+    margin-top:-2px;
+    width:600px;
+}
+#proxima-charla .texto p{
+    margin-top:8px;
+    font-size:21px;
+    font-weight:400;
+    width:561px;
+    opacity:0.9;
+ }
+
+
+
+/*EVENTOS ANTERIORES*/
+
+.eventos-anteriores{
+  text-align:center;
+  padding:100px 0;
+
+}
+.eventos-anteriores h2{
+   font-size:32px;
+   margin-bottom:45px;
+  }
+.eventos-anteriores img{
+    border-radius: 5px;
+    width:75%;
+  
+  }
+  .eventos-anteriores h3{
+    margin-top:25px;
+    font-size:24px;;
+  }
+
+.eventos-anteriores div{
+    display:inline-block;
+    margin-bottom:32px;
+  
+  }
+
+.wrapper .texto{
+    padding-top:2%;
+    width:70%;
+    margin-left:3%;
+
+}
+
+
+/*FOOTER*/
+
+.icono{
+    height:40px;
+
+}
+
+.icono svg{
+    width:2rem;
+    fill: aliceblue;
+    margin-left:39px;
+    vertical-align:middle;
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    background: #000f08;
+    text-align: center;
+    padding:60px 50px 50px 50px;
+    height:105px;
+
+}
+
+footer p{
+    margin:40px 0 -30px;
+    opacity:0.9;
+    font-size:19px;
+
+}
+
+
+/* footer a i.fab{
+    color:white;
+} */
+
+i{
+    font-size:50px;
+    margin-bottom:5px;
+    margin-left:18px;
+}
+
+
+/*PAGINA EVENTO01*/
+
+.evento01{
+    width:985px;
+    height:auto;
+    margin:0px auto 30px auto;
+
+    /* border:1px solid black ; */
+
+}
+.evento01 h2{
+    font-size: 38px;
+    height:auto;
+    margin:55px 0 45px 0;
+}
+.evento01 p{
+    font-size: 21px;
+    letter-spacing:1px;
+    text-align:left;
+    border: px solid black;
+}
